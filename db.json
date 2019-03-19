@@ -1,0 +1,226 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "fikri",
+      "password": "123123",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "12341234",
+      "role": "admin"
+    },
+    {
+      "username": "Angga",
+      "password": "kerinci36",
+      "email": "anggaradifans@gmail.com",
+      "phone": "087880196680",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "username": "Anggu",
+      "password": "123456",
+      "email": "anggu@gmail.com",
+      "phone": "08781234",
+      "id": 4,
+      "role": "user"
+    },
+    {
+      "username": "Anggi",
+      "password": "123456",
+      "email": "qwerty",
+      "phone": "0812345667",
+      "id": 5,
+      "role": "user"
+    },
+    {
+      "username": "user",
+      "password": "1234",
+      "email": "asdasd@gmail.com",
+      "phone": "087876543",
+      "role": "user",
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "nama": "Kaos Polos Hitam",
+      "harga": 20000,
+      "discount": 20,
+      "kategori": "polos",
+      "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "deskripsi": "Kaos Terbaik",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "nama": "The Dark Knight",
+      "kategori": "sablon",
+      "harga": 40000,
+      "discount": 0,
+      "deskripsi": "Kaos SuperHero Terbaik",
+      "img": "https://store.primagraphia.co.id/wp-content/uploads/2014/08/konsep-kaos.jpg"
+    },
+    {
+      "id": 3,
+      "nama": "Epic Comeback",
+      "kategori": "sablon",
+      "harga": 30000,
+      "discount": 20,
+      "deskripsi": "Kaos Terbaik",
+      "img": "https://ecs7.tokopedia.net/img/product-1/2018/7/27/27345219/27345219_c9909d3f-8e63-4581-a242-63995611577d_1000_1000.jpg"
+    },
+    {
+      "id": 4,
+      "nama": "Consina",
+      "kategori": "sablon",
+      "harga": 40000,
+      "discount": 30,
+      "deskripsi": "Kaos Terbaik",
+      "img": "http://onsight-adventure.com/wp-content/uploads/2016/04/Kaos-Consina-Kaos-Pria-Kaos-Keren-Kaos-Dostro-446-tsc.jpg"
+    },
+    {
+      "id": 5,
+      "nama": "Indonesia Merdeka",
+      "kategori": "sablon",
+      "harga": 30000,
+      "discount": 20,
+      "deskripsi": "Kaos Terbaik",
+      "img": "https://www.satubaju.com/img/editor/img_iscums/153/3705153_m.jpg"
+    },
+    {
+      "id": 6,
+      "nama": "AFK",
+      "kategori": "sablon",
+      "harga": 25000,
+      "discount": 10,
+      "deskripsi": "Kaos Terbaik",
+      "img": "https://dj7u9rvtp3yka.cloudfront.net/products/PIM-1548748274350-1f24efab-5938-4bd6-a960-7bd57677583c_v1-small.jpg"
+    },
+    {
+      "nama": "Kirito",
+      "harga": 15000,
+      "discount": 15,
+      "kategori": "sablon",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgBHOzhd9hhbKJP8ORZCSj9qEzRaCU6u_HcH-f7Ty_-zGwCZqa",
+      "deskripsi": "Kirito ampas",
+      "id": 7
+    }
+  ],
+  "cart": [
+    {
+      "username": "Anggu",
+      "userId": 4,
+      "productId": 1,
+      "namaProduk": "Kaos Polos Hitam",
+      "harga": 20000,
+      "discount": 20,
+      "kategori": "polos",
+      "img": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "quantity": 1,
+      "id": 3
+    }
+  ],
+  "history": [
+    {
+      "tanggal": "03/19/2019",
+      "waktu": "09:47:19",
+      "username": "Angga",
+      "userId": 3,
+      "jumlahItem": 2,
+      "totalHarga": 52000,
+      "cart": [
+        {
+          "namaProduk": "Indonesia Merdeka",
+          "productId": 5,
+          "quantity": 1,
+          "harga": 24000,
+          "discount": 20,
+          "kategori": "sablon"
+        },
+        {
+          "namaProduk": "Consina",
+          "productId": 4,
+          "quantity": 1,
+          "harga": 28000,
+          "discount": 30,
+          "kategori": "sablon"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "tanggal": "03/19/2019",
+      "waktu": "09:49:04",
+      "username": "Angga",
+      "userId": 3,
+      "jumlahItem": 3,
+      "totalHarga": 74500,
+      "cart": [
+        {
+          "namaProduk": "Consina",
+          "productId": 4,
+          "quantity": 1,
+          "harga": 28000,
+          "discount": 30,
+          "kategori": "sablon"
+        },
+        {
+          "namaProduk": "Indonesia Merdeka",
+          "productId": 5,
+          "quantity": 1,
+          "harga": 24000,
+          "discount": 20,
+          "kategori": "sablon"
+        },
+        {
+          "namaProduk": "AFK",
+          "productId": 6,
+          "quantity": 1,
+          "harga": 22500,
+          "discount": 10,
+          "kategori": "sablon"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "tanggal": "03/19/2019",
+      "waktu": "11:35:32",
+      "username": "Angga",
+      "userId": 3,
+      "jumlahItem": 3,
+      "totalHarga": 80000,
+      "cart": [
+        {
+          "namaProduk": "The Dark Knight",
+          "productId": 2,
+          "quantity": 1,
+          "harga": 40000,
+          "discount": 0,
+          "kategori": "sablon"
+        },
+        {
+          "namaProduk": "Epic Comeback",
+          "productId": 3,
+          "quantity": 1,
+          "harga": 24000,
+          "discount": 20,
+          "kategori": "sablon"
+        },
+        {
+          "namaProduk": "Kaos Polos Hitam",
+          "productId": 1,
+          "quantity": 1,
+          "harga": 16000,
+          "discount": 20,
+          "kategori": "polos"
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
