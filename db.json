@@ -221,6 +221,41 @@
         }
       ],
       "id": 3
+    },
+    {
+      "tanggal": "03/19/2019",
+      "waktu": "13:36:00",
+      "username": "Angga",
+      "userId": 3,
+      "jumlahItem": 3,
+      "totalHarga": 80000,
+      "cart": [
+        {
+          "namaProduk": "Kaos Polos Hitam",
+          "productId": 1,
+          "quantity": 1,
+          "harga": 16000,
+          "discount": 20,
+          "kategori": "polos"
+        },
+        {
+          "namaProduk": "The Dark Knight",
+          "productId": 2,
+          "quantity": 1,
+          "harga": 40000,
+          "discount": 0,
+          "kategori": "sablon"
+        },
+        {
+          "namaProduk": "Epic Comeback",
+          "productId": 3,
+          "quantity": 1,
+          "harga": 24000,
+          "discount": 20,
+          "kategori": "sablon"
+        }
+      ],
+      "id": 4
     }
   ]
 }
